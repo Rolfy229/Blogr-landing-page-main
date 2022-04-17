@@ -8,9 +8,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" media="screen and (min-width: 720px)" type="text/CSS" href="Default.css">
-  <link rel="stylesheet" media="screen and (max-width: 720px)" type="text/CSS" href="small_screens.css">
-  <script type="text/javascript" src="Script.js"></script>
+  <link rel="stylesheet" media="screen and (min-width: 375px)" type="text/CSS" href="Default.css">
+  <link rel="stylesheet" media="screen and (max-width: 375px)" type="text/CSS" href="small_screens.css">
+  <script src="Script.js"></script>
   <title>Frontend Mentor | [Blogr]</title>
 
 </head>
@@ -21,9 +21,9 @@
       <img src="images/logo.svg" alt="Blogr logo">
     </div>
     <div class="bgPatternIntro">
-      <div id="icon-hamburger" onclick="show3crox()"><img src="images/icon-hamburger.svg">
+      <div id="icon-hamburger" onclick="show3crox()"><img src="images/icon-hamburger.svg" alt="icon-hamburger">
       </div>
-      <div id="icon-close"><img src="images/icon-close.svg" ondblclick="show3lines()"></div>
+      <div id="icon-close"><img src="images/icon-close.svg" alt="icon-close" ondblclick="show3lines()" ></div>
 
       <div id="NavigationAids">
 
@@ -34,7 +34,7 @@
         <div>
           <nav onmouseover="showProduct()" onmouseout="hideProduct()">
             <div class="product" onmouseover="rotate1()" onmouseout="norotate1()">Product <img
-                src="images/icon-arrow-light.svg" id="arrow1"><img src="images/icon-arrow-dark.svg" id="arrow11"></div>
+                src="images/icon-arrow-light.svg" alt="icon-arrow-light" id="arrow1"><img src="images/icon-arrow-dark.svg" alt="icon-arrow-dark" id="arrow11"></div>
             <div id="product" onmouseover="rotate1()" onmouseout="norotate1()">
               <br />
               <a href="#">Overview</a><br />
@@ -50,7 +50,7 @@
         <div>
           <nav onmouseover="showCompany()" onmouseout="hideCompany()">
             <div class="Company" onmouseover="rotate2()" onmouseout="norotate2()">Company <img
-                src="images/icon-arrow-light.svg" id="arrow2"><img src="images/icon-arrow-dark.svg" id="arrow22"></div>
+                src="images/icon-arrow-light.svg" alt="icon-arrow-light" id="arrow2"><img src="images/icon-arrow-dark.svg" alt="icon-arrow-dark" id="arrow22"></div>
             <div id="Company" onmouseover="rotate2()" onmouseout="norotate2()">
               <br />
               <a href="#">About</a><br />
@@ -65,7 +65,7 @@
         <div>
           <nav onmouseover="showConnect()" onmouseout="hideConnect()">
             <div class="Connect" onmouseover="rotate3()" onmouseout="norotate3()">Connect <img
-                src="images/icon-arrow-light.svg" id="arrow3"><img src="images/icon-arrow-dark.svg" id="arrow33"></div>
+                src="images/icon-arrow-light.svg" alt="icon-arrow-light" id="arrow3"><img src="images/icon-arrow-dark.svg" alt="icon-arrow-dark" id="arrow33"></div>
             <div id="Connect" onmouseover="rotate3()" onmouseout="norotate3()">
               <br />
               <a href="#">Contact</a><br />
@@ -156,7 +156,7 @@
 
   <footer>
     <div class="logoBlogr2">
-      <img src="images/logo.svg">
+      <img src="images/logo.svg" alt="logo_Blogr2">
     </div>
 
     <div class="ftmenu">
