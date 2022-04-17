@@ -1,0 +1,361 @@
+body{
+    position: relative;
+    font-family: "Overpass", "Ubuntu",sans-serif;
+    font-weight: 400, 500, 700;
+    background-color: hsl(0, 0%, 100%);
+
+}
+
+.bgPatternIntro {
+    padding-top: 50px;
+    background-color: hsl(353, 100%, 62%);
+    background-image: url("images/bg-pattern-intro.svg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 420%;
+    border-bottom-left-radius: 110px;
+}
+
+.logoBlogr {
+    display: none;
+}
+
+#icon-hamburger {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+#icon-close{
+    display: none;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 402px;
+}
+
+#NavigationAids{
+    border-radius: 20px;
+    display: none;
+    text-align: center;
+    width: 380px;
+    height: 480px;
+    margin-top: 140px;
+    margin-left: 40px;
+    position: relative;
+    background-color: hsl(0, 0%, 100%);
+}
+.logoBlogr0{
+    margin-left: 30px;
+    margin-top: 95px;
+    position: absolute;
+    float: left ;
+    display: flex;
+}
+
+.Modern {
+    color: hsl(0, 0%, 100%);
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 220px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.Audience {
+    position: relative;
+    color: hsl(0, 0%, 100%);
+    font-size: 21px;
+    font-weight: 500;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.login {
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.login button{
+    border-radius: 40px;
+    width: 150px;
+    height: 50px;
+    margin-left: 110px;
+    background-color: hsl(353, 100%, 62%);
+
+}
+
+hr{
+    display: block;
+    opacity: 25%;
+}
+div button {
+    align-content: center;
+    margin-top: 15px;
+    font-weight: 700;
+    border-radius: 20px;
+    border-style: none;
+    width: 75px;
+    height: 35px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(355, 100%, 74%);
+}
+
+div button:hover {
+    color: hsl(355, 100%, 74%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+.btnstartlearn {
+    font-weight: 700;
+    display: flex;
+    margin-left: 90px;
+    margin-top: 100px;
+}
+
+.Start4Free {
+    font-size: 18px;
+    margin-bottom: 70px;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 100%);
+    width: 150px;
+    height: 55px;
+    color: hsl(355, 100%, 74%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+.Start4Free:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(355, 100%, 74%);
+}
+
+.learnMore {
+    font-size: 18px;
+    margin-bottom: 180px;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 100%);
+    width: 150px;
+    height: 55px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(355, 100%, 74%);
+}
+
+.learnMore:hover {
+    color: hsl(355, 100%, 74%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+.designed4future {
+    color: hsl(208, 49%, 24%);
+    margin-top: 120px;
+    text-align: center;
+}
+.product {
+    height: 30px;
+    width: 100px;
+    padding-top: 130px;
+    color:  hsl(208, 49%, 24%);
+    margin-left: 145px;
+}
+
+#product {
+    text-align: center;
+    background-color: hsl(0, 50%, 98%);
+    border-radius: 3px;
+    display: none;
+    margin-left: 75px;
+    margin-right: 75px;
+    text-align: center;
+}
+
+.Company {
+    height: 30px;
+    width: 90px;
+    margin-top: 0px;
+    color:  hsl(208, 49%, 24%);
+    margin-left: 150px;
+}
+
+#Company {
+    text-align: center;
+    background-color: hsl(0, 50%, 98%);
+    border-radius: 3px;
+    display: none;
+    margin-left: 75px;
+    margin-right: 75px;
+    text-align: center;
+}
+
+.Connect {
+    height: 30px;
+    width: 90px;
+    margin-top: 0px;
+    color:  hsl(208, 49%, 24%);
+    margin-left: 150px;
+}
+
+#Connect {
+    text-align: center;
+    background-color: hsl(0, 50%, 98%);
+    border-radius: 3px;
+    display: none;
+    margin-left: 75px;
+    margin-right: 75px;
+    text-align: center;
+}
+
+a {
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    color: hsl(240, 1%, 56%);
+    text-decoration: none;
+}
+
+a:hover {
+    color: hsl(240, 10%, 16%);
+}
+
+#arrow1{
+    display: none;
+}
+
+#arrow2{
+    display: none;
+}
+
+#arrow3{
+    display: none;
+}
+
+.illustration-1 {
+    display: none;
+}
+
+.illustration-11{
+    text-align: center;
+}
+
+.container1 {
+    color: hsl(208, 49%, 24%);
+    margin-right: 85px;
+    margin-left: 85px;
+    margin-bottom: 250px;
+    text-align: center;
+}
+.mainTwo {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(237, 23%, 32%);
+    background-image: url("images/bg-pattern-circles.svg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-top-right-radius:110px;
+    border-bottom-left-radius: 110px;
+    width: 470px;
+    height: 600px;
+    position: relative;
+}
+
+.illustration-phones {
+    display:flex;
+    flex-direction: column;
+    margin-top: -250px;
+}
+
+.container2 {
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.illustration-laptop{
+    display: none;
+}
+
+.illustration-laptop1{
+    display: block;
+    align-items:center;
+}
+
+.container3 {
+    color: hsl(208, 49%, 24%);
+    margin-right: 85px;
+    margin-left: 85px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 300px;
+    background-color: hsl(240, 10%, 16%);
+    border-top-right-radius: 90px;
+    height: 600px;
+}
+
+.logoBlogr2 {
+    align-content: center;
+    padding-top: 70px;
+    margin-left: 190px;
+    margin-bottom: 25px;
+    width: 101;
+    height: 40;
+}
+
+.ftmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+
+}
+
+.ftmenu a {
+    color: hsl(0, 0%, 100%);
+}
+
+.ftmenu a:hover {
+    text-decoration: underline;
+}
+
+.pro1 {
+    font-weight: 700;
+    font-size: 18px;
+}
+.ft1 .ft2 .ft3{
+    font-weight:700;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dt1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 400;
+    margin: 20px;
+    font-size: 12px;
+}
+
+.attribution {
+    margin-top: 25px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+

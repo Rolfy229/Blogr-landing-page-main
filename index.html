@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" media="screen and (min-width: 720px)" type="text/CSS" href="Default.css">
+  <link rel="stylesheet" media="screen and (max-width: 720px)" type="text/CSS" href="small_screens.css">
+  <script type="text/javascript" src="Script.js"></script>
+  <title>Frontend Mentor | [Blogr]</title>
+
+</head>
+
+<body>
+  <header>
+    <div class="logoBlogr0">
+      <img src="images/logo.svg" alt="Blogr logo">
+    </div>
+    <div class="bgPatternIntro">
+      <div id="icon-hamburger" onclick="show3crox()"><img src="images/icon-hamburger.svg">
+      </div>
+      <div id="icon-close"><img src="images/icon-close.svg" ondblclick="show3lines()"></div>
+
+      <div id="NavigationAids">
+
+        <div class="logoBlogr">
+          <img src="images/logo.svg" alt="Blogr logo">
+        </div>
+
+        <div>
+          <nav onmouseover="showProduct()" onmouseout="hideProduct()">
+            <div class="product" onmouseover="rotate1()" onmouseout="norotate1()">Product <img
+                src="images/icon-arrow-light.svg" id="arrow1"><img src="images/icon-arrow-dark.svg" id="arrow11"></div>
+            <div id="product" onmouseover="rotate1()" onmouseout="norotate1()">
+              <br />
+              <a href="#">Overview</a><br />
+              <a href="#">Pricing</a><br />
+              <a href="#">Marketplace</a><br />
+              <a href="#">Features</a><br />
+              <a href="#">Integrations</a><br />
+              <br />
+            </div>
+          </nav>
+        </div>
+
+        <div>
+          <nav onmouseover="showCompany()" onmouseout="hideCompany()">
+            <div class="Company" onmouseover="rotate2()" onmouseout="norotate2()">Company <img
+                src="images/icon-arrow-light.svg" id="arrow2"><img src="images/icon-arrow-dark.svg" id="arrow22"></div>
+            <div id="Company" onmouseover="rotate2()" onmouseout="norotate2()">
+              <br />
+              <a href="#">About</a><br />
+              <a href="#">Team</a><br />
+              <a href="#">Blog</a><br />
+              <a href="#">Careers</a><br />
+              <br />
+            </div>
+          </nav>
+        </div>
+
+        <div>
+          <nav onmouseover="showConnect()" onmouseout="hideConnect()">
+            <div class="Connect" onmouseover="rotate3()" onmouseout="norotate3()">Connect <img
+                src="images/icon-arrow-light.svg" id="arrow3"><img src="images/icon-arrow-dark.svg" id="arrow33"></div>
+            <div id="Connect" onmouseover="rotate3()" onmouseout="norotate3()">
+              <br />
+              <a href="#">Contact</a><br />
+              <a href="#">Newsletter</a><br />
+              <a href="#">LinkedIn</a><br />
+              <br />
+            </div>
+          </nav>
+        </div>
+
+<hr>
+        <div class="login">Login &nbsp; &nbsp;
+          <button>Sign Up</button>
+        </div>
+      </div>
+
+      <div class="Modern">A modern publishing platform</div>
+      <div class="Audience">Grow your audience and build your online brand</div>
+      <div class="btnstartlearn">
+        <button class="Start4Free">Start for Free</button> &nbsp; &nbsp;
+        <button class="learnMore">Learn More</button>
+      </div>
+    </div>
+  </header>
+  <main>
+
+    <div class="mainOne">
+      <h1 class="designed4future">Designed for the future</h1>
+      <div class="illustration-1"><img src="images/illustration-editor-desktop.svg" alt="illustration-editor"></div>
+      <div class="illustration-11"><img src="images/illustration-editor-mobile.svg" alt="illustration-editor"></div>
+      <div class="container1">
+        <h2>Introducing an extensible editor</h2>
+        <p>
+          Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
+          The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
+          videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
+          change the looks of a blog.
+        </p>
+
+        <h2>Robust content management</h2>
+        <p>
+          Flexible content management enables users to easily move through posts.
+          Increase the usability of your blog by adding customized categories, sections, format, or flow. With this
+          functionality, you’re in full control.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="mainTwo">
+      <div class="illustration-phones"><img src="images/illustration-phones.svg" alt="illustration-phones"></div>
+      <div class="container2">
+        <h1>State of the Art Infrastructure</h1>
+        <p>
+          With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
+          This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+      </div>
+      </p>
+    </div>
+
+    <div class="mainThree">
+      <div class="illustration-laptop"><img src="images/illustration-laptop-desktop.svg"
+          alt="illustration-laptop-desktop"></div>
+      <div class="illustration-laptop1"><img src="images/illustration-laptop-mobile.svg"
+          alt="illustration-laptop-desktop"></div>
+
+
+      <div class="container3">
+        <h2>Free, open, simple</h2>
+        <p>
+          Blogr is a free and open source application backed by a large community of helpful developers. It supports
+          features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting
+          tools,
+          and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+        </p>
+        <br />
+        <br />
+        <h2>Powerful tooling</h2>
+        <p>
+          Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a
+          breeze,
+          but
+          capable of producing even the most complicated sites.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="logoBlogr2">
+      <img src="images/logo.svg">
+    </div>
+
+    <div class="ftmenu">
+      <div class="ft1">
+        <div class="pro1">Product</div>
+
+        <div class="dt1">
+          <div><a href="#">Overview</a></div>
+          <div><a href="#">Pricing</a></div>
+          <div><a href="#">Marketplace</a></div>
+          <div><a href="#">Features</a></div>
+          <div><a href="#">Integrations</a></div>
+        </div>
+
+      </div>
+
+      <div class="ft2">
+        <div class="pro1">Company</div>
+
+        <div class="dt1">
+          <div><a href="#">About</a></div>
+          <div><a href="#">Team</a></div>
+          <div><a href="#">Blog</a></div>
+          <div><a href="#">Careers</a></div>
+        </div>
+      </div>
+
+      <div class="ft3">
+        <div class="pro1">Connect</div>
+
+        <div class="dt1">
+          <div><a href="#">Contact</a></div>
+          <div><a href="#">Newsletter</a></div>
+          <div><a href="#">LinkedIn</a></div>
+        </div>
+
+
+      </div>
+    </div>
+  </footer>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+    Coded by <a href="https://twitter.com/EliseeFlorian?t=BJeO_CfiNJ_WBHKN3lkpbw&s=09">Florian</a>
+  </div>
+</body>
+
+</html>

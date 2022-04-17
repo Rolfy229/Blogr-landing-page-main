@@ -1,0 +1,353 @@
+body {
+    font-family: "Overpass", "Ubuntu",sans-serif;
+    font-weight: 400, 500, 700;
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+}
+
+.bgPatternIntro {
+    position: relative;
+    background-image: url("images/bg-pattern-intro.svg");
+    min-width: 2000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logoBlogr0{
+    display: none;
+}
+
+header {
+    font-weight: 700;
+    background-color: hsl(353, 100%, 62%);
+    border-bottom-left-radius: 90px;
+    font-size: 16px;
+    min-width: max-content;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logoBlogr {
+    margin-top: 45px;
+    margin-left: 120px;
+    width: 101;
+    height: 40;
+}
+
+#icon-hamburger {
+    display: none;
+}
+
+#icon-close {
+    display: none;
+}
+
+#NavigationAids {
+    display: flex;
+}
+
+.product {
+    height: 30px;
+    width: 100px;
+    margin-top: 60px;
+    color: hsl(0, 0%, 100%);
+    margin-left: 50px;
+}
+
+#product {
+    text-align: left;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 3px;
+    display: none;
+    margin-left: 40px;
+}
+
+.Company {
+    height: 30px;
+    width: 90px;
+    margin-top: 60px;
+    color: hsl(0, 0%, 100%);
+    margin-left: 20px;
+}
+
+#Company {
+    text-align: left;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 3px;
+    display: none;
+    margin-left: 10px;
+}
+
+.Connect {
+    height: 30px;
+    width: 90px;
+    margin-top: 60px;
+    color: hsl(0, 0%, 100%);
+    margin-left: 30px;
+}
+
+#Connect {
+    text-align: left;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 3px;
+    display: none;
+    margin-left: 20px;
+}
+
+a {
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    color: hsl(240, 1%, 56%);
+    text-decoration: none;
+}
+
+a:hover {
+    color: hsl(240, 10%, 16%);
+}
+
+hr{
+    display: none;
+}
+
+.login {
+    font-weight: 700;
+    display: flex;
+    margin-left: 400px;
+    margin-top: 50px;
+    color: hsl(0, 0%, 100%);
+}
+
+div button {
+    margin-top: -6px;
+    font-weight: 700;
+    border-radius: 20px;
+    border-style: none;
+    width: 75px;
+    height: 35px;
+    color: hsl(355, 100%, 74%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+div button:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(355, 100%, 74%);
+}
+
+.btnstartlearn {
+    font-weight: 700;
+    display: flex;
+    margin-left: 520px;
+}
+
+.Start4Free {
+    margin-bottom: 70px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 100%);
+    width: 100px;
+    height: 40px;
+    color: hsl(355, 100%, 74%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+.Start4Free:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(355, 100%, 74%);
+}
+
+.learnMore {
+    margin-bottom: 70px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 100%);
+    width: 100px;
+    height: 40px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(355, 100%, 74%);
+}
+
+.learnMore:hover {
+    color: hsl(355, 100%, 74%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+.Modern {
+    position: relative;
+    color: hsl(0, 0%, 100%);
+    font-size: 55px;
+    font-weight: 600;
+    margin-left: 280px;
+    margin-top: 50px;
+}
+
+.Audience {
+    position: relative;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 450px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.mainOne {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.designed4future {
+    position: relative;
+    float: right;
+    color: hsl(208, 49%, 24%);
+    margin-right: 540px;
+    margin-top: 80px;
+}
+
+.illustration-1 {
+    display: flex;
+    margin-left: 730px;
+    margin-top: 70px;
+    height: 800px;
+}
+
+.illustration-11{
+    display: none;
+}
+
+.container1 {
+    color: hsl(208, 49%, 24%);
+    display: flex;
+    flex-direction: column;
+    margin-right: 750px;
+    margin-left: 120px;
+    margin-top: -600px;
+    margin-bottom: 100px;
+}
+
+.mainTwo {
+    background-color: hsl(237, 23%, 32%);
+    background-image: url("images/bg-pattern-circles.svg");
+    background-repeat: no-repeat;
+    background-position: -100px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    height: 415px;
+    margin-top: 200px;
+    position: absolute
+}
+
+.illustration-phones {
+    position: relative;
+    width: 552;
+    height: 579;
+    margin-left: 80px;
+    margin-top: -70px;
+}
+
+.container2 {
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    margin-right: 140px;
+    margin-left: 700px;
+    margin-top: -430px;
+}
+
+.mainThree {
+    margin-top: 800px;
+}
+
+.illustration-laptop {
+    position: relative;
+    width: 498;
+    height: 359;
+    margin-left: -280px;
+    padding-top: 65px;
+}
+
+.illustration-laptop1{
+    display: none;
+}
+
+.container3 {
+    color: hsl(208, 49%, 24%);
+    display: flex;
+    flex-direction: column;
+    margin-right: 140px;
+    margin-left: 700px;
+    margin-top: -620px;
+}
+
+footer {
+    margin-top: 300px;
+    background-color: hsl(240, 10%, 16%);
+    border-top-right-radius: 90px;
+    height: 400px;
+}
+
+.logoBlogr2 {
+    padding-top: 70px;
+    margin-left: 120px;
+    width: 101;
+    height: 40;
+}
+
+.ftmenu {
+    display: flex;
+    color: hsl(0, 0%, 100%);
+
+}
+
+.ftmenu a {
+    color: hsl(0, 0%, 100%);
+}
+
+.ftmenu a:hover {
+    text-decoration: underline;
+}
+
+.pro1 {
+    margin-left: 25px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.ft1 {
+    margin-left: 430px;
+}
+
+.ft2 {
+    margin-left: 140px;
+}
+
+.ft3 {
+    margin-left: 140px;
+}
+
+.dt1 {
+    margin: 10px;
+    font-size: 12px;
+}
+
+.attribution {
+    margin-top: 25px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+#arrow11{
+    display: none;
+}
+
+#arrow22{
+    display: none;
+}
+
+#arrow33{
+    display: none;
+}
